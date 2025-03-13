@@ -27,8 +27,8 @@ namespace ygdstmidn
         struct PidParam
         {
             PidGain gain;
-            float max;
             float min;
+            float max;
         };
 
     } // namespace PidBase
