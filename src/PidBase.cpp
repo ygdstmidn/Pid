@@ -27,5 +27,9 @@ namespace ygdstmidn
         template float min<float>(float a, float b);
         template float clamp<float>(float value, float min_, float max_);
 
+        template int max<int>(int a, int b);
+        template int min<int>(int a, int b);
+        template int clamp<int>(int value, int min_, int max_);
+
     } // namespace PidBase
 } // namespace ygdstmidn
