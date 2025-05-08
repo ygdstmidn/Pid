@@ -7,15 +7,11 @@ namespace ygdstmidn
 {
     namespace PidBase
     {
+        float max(float a, float b);
 
-        template <typename T>
-        T max(T a, T b);
+        float min(float a, float b);
 
-        template <typename T>
-        T min(T a, T b);
-
-        template <typename T>
-        T clamp(T value, T min_, T max_);
+        float clamp(float value, float min_, float max_);
 
         struct PidGain
         {
